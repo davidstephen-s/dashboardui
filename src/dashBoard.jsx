@@ -63,18 +63,10 @@ export default function DashboardUI() {
       <aside className="sidebar">
         <div className="logo">Logo</div>
         <nav className="menu">
-          <a className="menu-item active" href="#">
-            Dashboard
-          </a>
-          <a className="menu-item" href="#">
-            Status
-          </a>
-          <a className="menu-item" href="#">
-            Reports
-          </a>
-          <a className="menu-item" href="#">
-            Notification
-          </a>
+          <button className="menu-item active">Dashboard</button>
+          <button className="menu-item">Status</button>
+          <button className="menu-item">Reports</button>
+          <button className="menu-item">Notification</button>
         </nav>
         <div className="logout">
           <button className="logout-btn">Logout ↪</button>
